@@ -639,6 +639,7 @@ section {
 }
 .about p{
   padding-left: 2%;
+  text-align: justify;
 }
 .about .call-us {
   left: 10%;
