@@ -508,7 +508,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(0, 131, 116, 0.9);
+    background: #0076fc;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -607,7 +607,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(0, 106, 93, 0.8);
+    background: #91c0f5;
     z-index: 9996;
   }
 }
@@ -1948,7 +1948,7 @@ section {
   width: 100%;
   position: relative;
   height: 100vh;
-  background-image: url(C:/Users/soundarya/website_2/assets/img/bg1.jpg) ;
+  background-image: url(C:\Users\soundarya\website_2\assets\img\bg1.jpg);
   background-position: center;
   background-size: cover;
   padding: 160px 0 0 0;
