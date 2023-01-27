@@ -1948,8 +1948,9 @@ section {
   width: 100%;
   position: relative;
   height: 100vh;
-  background-image: url(C:\Users\soundarya\website_2\assets\img\bg1.jpg);
-  background-position: center;
+  background: url("https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148881321.jpg?size=626&ext=jpg&uid=R91181090&ga=GA1.1.323538130.1674799784");
+  background-size: cover;
+  background-blend-mode: normal;
   background-size: cover;
   padding: 160px 0 0 0;
 }
