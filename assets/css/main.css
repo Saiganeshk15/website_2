@@ -1063,10 +1063,10 @@ section {
   border-radius: 10px;
   margin-right: 10px;
 }
-.testimonials .testimonial-wraps{
+/* .testimonials .testimonial-wraps{
   height: 600px;
   text-align: center;
-}
+} */
 .testimonial .testimonial-items{
   text-align: center;
 }
@@ -1945,20 +1945,11 @@ section {
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
-  width: 100%;
-  position: relative;
   height: 100vh;
   background: url("https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148881321.jpg?size=626&ext=jpg&uid=R91181090&ga=GA1.1.323538130.1674799784");
   background-size: cover;
+  width: 100%;
   background-blend-mode: normal;
-  background-size: cover;
-  padding: 140px 0 0 0;
-}
-
-@media (min-width: 1365px) {
-  .hero {
-    background-attachment: fixed;
-  }
 }
 
 .hero h2 {
@@ -2015,7 +2006,7 @@ section {
 
 @media (max-width: 640px) {
   .hero h2 {
-    font-size: 36px;
+    font-size: 22px;
   }
 
   .hero .btn-get-started,
