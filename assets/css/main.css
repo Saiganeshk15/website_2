@@ -2670,7 +2670,7 @@ video{
 .footer {
   text-align: center;
   font-size: 14px;
-  background-color: var(--color-primary);
+  background-color: #0076fc;
   padding-top: 1px!important;
   color: white;
 }
