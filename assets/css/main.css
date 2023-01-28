@@ -19,7 +19,7 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: rgb(22, 55, 134);
+  --color-primary: #003273;
   --color-secondary: #ca6372;
 }
 
@@ -1786,7 +1786,7 @@ section {
 
 .contact .info-item {
   width: 100%;
-  background-color: #009282;
+  background-color: rgb(82 109 173 / 86%);
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
