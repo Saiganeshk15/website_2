@@ -19,8 +19,8 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #008374;
-  --color-secondary: #f85a40;
+  --color-primary: rgb(22, 55, 134);
+  --color-secondary: #ca6372;
 }
 
 /* Smooth scroll behavior */
@@ -301,7 +301,7 @@ section {
   transition: all 0.5s;
   z-index: 997;
   height: 90px;
-  background-color: #0076fc;
+  background-color: var(--color-primary);
 }
 
 .header.sticked {
@@ -1953,7 +1953,7 @@ section {
   background-size: cover;
   background-blend-mode: normal;
   background-size: cover;
-  padding: 160px 0 0 0;
+  padding: 140px 0 0 0;
 }
 
 @media (min-width: 1365px) {
@@ -2067,11 +2067,11 @@ section {
 }
 
 .but{
-  background-color: #b098b9;
+  background-color: #0076fc;
 }
 
 .but:hover{
-  background-color: #0076fc;
+  background-color: var(--color-primary);
 }
 
 .hero .icon-box .icon {
@@ -2670,7 +2670,7 @@ video{
 .footer {
   text-align: center;
   font-size: 14px;
-  background-color: #0076fc;
+  background-color: var(--color-primary);
   padding-top: 1px!important;
   color: white;
 }
