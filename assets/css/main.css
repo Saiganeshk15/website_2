@@ -638,7 +638,6 @@ section {
   font-family: var(--font-secondary);
 }
 .about p{
-  padding-left: 2%;
   text-align: justify;
 }
 .about .call-us {
