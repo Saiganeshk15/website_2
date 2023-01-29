@@ -2128,6 +2128,7 @@ section {
 
 .but {
   background-color: #000000;
+  font-size: 21px;
 }
 
 .but:hover {
