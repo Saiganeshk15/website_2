@@ -1979,7 +1979,7 @@ section {
 --------------------------------------------------------------*/
 .hero {
   height: 100vh;
-  background: url("https://img.freepik.com/free-vector/dots-connection-lines-digital-background_23-2148821703.jpg?w=1060&t=st=1674965701~exp=1674966301~hmac=81f87bbdf3e12059e83ab93bd99643dca4d576dc58064a29d2cd6a6959a062de");
+  background: url("bg2.jpg");
   background-size: cover;
   width: 100%;
   background-blend-mode: normal;
