@@ -59,7 +59,7 @@ h6 {
 # Sections & Section Header
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 0px 0;
   overflow: hidden;
 }
 
@@ -326,6 +326,7 @@ section {
   color: #fff;
   font-family: var(--font-primary);
 }
+
 .header .logo h1 span {
   color: #f96f59;
 }
@@ -514,7 +515,7 @@ section {
     z-index: 9998;
   }
 
-  .navbar a{
+  .navbar a {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -526,6 +527,7 @@ section {
     white-space: nowrap;
     transition: 0.3s;
   }
+
   .navbar a:focus {
     display: flex;
     align-items: center;
@@ -622,42 +624,54 @@ section {
     z-index: 9996;
   }
 }
-.countdown-timer{
+
+.countdown-timer {
   pointer-events: none;
   cursor: default;
 }
+
 /*--------------------------------------------------------------
 # About Us Section
 --------------------------------------------------------------*/
-.timer{
+.timer {
   text-align: center;
 }
 
-.mainpic{
+.mainpic {
   text-align: center;
 }
+
 .about h3 {
   font-weight: 700;
   font-size: 28px;
   margin-bottom: 20px;
   font-family: var(--font-secondary);
 }
-@media screen and (max-width:1000px){
-  .rwabout{
-    display: block!important;
+
+@media screen and (max-width:1000px) {
+  .rwabout {
+    display: block !important;
   }
-  .rwabout div{
-    width:100%!important;
-    margin: 20px!important;
-    margin-right: 30px!important;
+
+  .rwabout div {
+    width: 100% !important;
+    margin: 20px !important;
+    margin-right: 30px !important;
   }
-  .rwabout div p{
-    padding-right: 40px!important;
+
+  .rwabout div img {
+    padding-right: 40px !important;
+  }
+
+  .rwabout div p {
+    padding-right: 40px !important;
   }
 }
-.about p{
+
+.about p {
   text-align: justify;
 }
+
 .about .call-us {
   left: 10%;
   right: 10%;
@@ -1083,7 +1097,7 @@ section {
   margin-right: 10px;
 }
 
-.testimonial .testimonial-items{
+.testimonial .testimonial-items {
   text-align: center;
 }
 
@@ -1186,10 +1200,12 @@ section {
   list-style: none;
   text-align: center;
 }
-.portfolio-wrap a{
+
+.portfolio-wrap a {
   pointer-events: none;
   cursor: default;
 }
+
 .portfolio .portfolio-flters li {
   cursor: pointer;
   display: inline-block;
@@ -1794,8 +1810,9 @@ section {
   border-radius: 10px;
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
 }
-@media screen and (max-width:768px){
-  .contact .info-container{
+
+@media screen and (max-width:768px) {
+  .contact .info-container {
     width: 100%;
   }
 }
@@ -2072,11 +2089,11 @@ section {
   transition: 0.3s;
 }
 
-.but{
+.but {
   background-color: #000000;
 }
 
-.but:hover{
+.but:hover {
   background-color: var(--color-primary);
 }
 
@@ -2648,28 +2665,36 @@ section {
 .blog .comments .reply-form .btn-primary:hover {
   background-color: rgba(248, 90, 64, 0.8);
 }
+
 /*--------------------------------------------------------------
 # More
 --------------------------------------------------------------*/
-.more h2{
+.more h2 {
   text-align: center;
 }
-.more h3{
+
+.more h3 {
   margin-left: 3%;
 }
-.video{
+
+.video {
   text-align: center;
 }
-video{
+
+video {
   width: 90%;
   margin-top: 2%;
 }
-.samples,.ps{
+
+.samples,
+.ps {
   margin-left: 5%;
 }
-.link{
+
+.link {
   text-align: center;
 }
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -2677,7 +2702,7 @@ video{
   text-align: center;
   font-size: 14px;
   background-color: var(--color-primary);
-  padding-top: 1px!important;
+  padding-top: 1px !important;
   color: white;
 }
 
@@ -2717,6 +2742,13 @@ video{
   color: rgba(255, 255, 255, 0.7);
   margin-right: 10px;
   transition: 0.3s;
+}
+
+.logo-hover:hover {
+  width: 43px;
+  color: whitesmoke;
+
+
 }
 
 .footer .social-links a:hover {
