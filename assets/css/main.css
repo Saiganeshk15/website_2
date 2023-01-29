@@ -69,7 +69,7 @@ section {
 
 .section-header {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
 }
 
 .section-header h2 {
@@ -514,8 +514,7 @@ section {
     z-index: 9998;
   }
 
-  .navbar a,
-  .navbar a:focus {
+  .navbar a{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -524,6 +523,18 @@ section {
     font-size: 15px;
     font-weight: 600;
     color: rgba(255, 255, 255, 0.7);
+    white-space: nowrap;
+    transition: 0.3s;
+  }
+  .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-family: var(--font-primary);
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(105, 72, 72, 0.7);
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -607,7 +618,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: #91c0f5;
+    background: #91c0f5b5;
     z-index: 9996;
   }
 }
@@ -621,12 +632,6 @@ section {
 .timer{
   text-align: center;
 }
-.rabout{
-  height: 50%;
-}
-/* .avklogo{
-  width: 80%;
-} */
 
 .mainpic{
   text-align: center;
@@ -636,6 +641,19 @@ section {
   font-size: 28px;
   margin-bottom: 20px;
   font-family: var(--font-secondary);
+}
+@media screen and (max-width:1000px){
+  .rwabout{
+    display: block!important;
+  }
+  .rwabout div{
+    width:100%!important;
+    margin: 20px!important;
+    margin-right: 30px!important;
+  }
+  .rwabout div p{
+    padding-right: 40px!important;
+  }
 }
 .about p{
   text-align: justify;
@@ -1059,14 +1077,12 @@ section {
 --------------------------------------------------------------*/
 .testimonials .testimonial-wrap {
   padding: 10px;
+  height: fit-content;
   background-color: #f1f1f1;
   border-radius: 10px;
   margin-right: 10px;
 }
-/* .testimonials .testimonial-wraps{
-  height: 600px;
-  text-align: center;
-} */
+
 .testimonial .testimonial-items{
   text-align: center;
 }
@@ -1425,7 +1441,7 @@ section {
 --------------------------------------------------------------*/
 .team .member {
   text-align: center;
-  background: #fff;
+  background: #f0e2e2;
   border-radius: 10px;
   padding: 15px;
   overflow: hidden;
@@ -1946,7 +1962,7 @@ section {
 --------------------------------------------------------------*/
 .hero {
   height: 100vh;
-  background: url("https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148881321.jpg?size=626&ext=jpg&uid=R91181090&ga=GA1.1.323538130.1674799784");
+  background: url("https://img.freepik.com/free-vector/dots-connection-lines-digital-background_23-2148821703.jpg?w=1060&t=st=1674965701~exp=1674966301~hmac=81f87bbdf3e12059e83ab93bd99643dca4d576dc58064a29d2cd6a6959a062de");
   background-size: cover;
   width: 100%;
   background-blend-mode: normal;
@@ -2057,7 +2073,7 @@ section {
 }
 
 .but{
-  background-color: #0076fc;
+  background-color: #000000;
 }
 
 .but:hover{
