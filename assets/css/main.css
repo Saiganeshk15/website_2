@@ -1202,12 +1202,12 @@ section {
 }
 @media (max-width:427px){
   .testimonials .testimonial-wrap{
-    height: 480px!important;
+    height: 600px!important;
   }
 }
 @media (max-width:320px){
   .testimonials .testimonial-wrap{
-    height: 520px!important;
+    height: 600px!important;
   }
 }
 
