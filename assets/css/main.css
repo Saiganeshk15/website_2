@@ -651,6 +651,9 @@ section {
     margin: 20px!important;
     margin-right: 30px!important;
   }
+  .rwabout div img{
+    padding-right: 40px!important;
+  }
   .rwabout div p{
     padding-right: 40px!important;
   }
