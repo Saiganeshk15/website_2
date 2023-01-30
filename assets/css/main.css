@@ -76,7 +76,7 @@ section {
   font-size: 32px;
   font-weight: 600;
   color: var(--color-primary);
-  margin-top: 50px;
+  margin-top: 70px!important;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
@@ -1209,20 +1209,32 @@ section {
     left: auto;
   }
 }
+@media (max-width:1400px){
+  .testimonials .testimonial-wrap{
+    height: 730px;
+  }
+}
 
 @media (max-width:1200px){
   .testimonials .testimonial-wrap{
-    height: 385px;
+    height: 450px!important;
   }
 }
 @media (max-width:427px){
   .testimonials .testimonial-wrap{
-    height: 600px!important;
+    height: 500px!important;
   }
 }
-@media (max-width:320px){
+@media (max-width:375px) {
   .testimonials .testimonial-wrap{
     height: 600px!important;
+    padding: 5px!important;
+  }
+}
+
+@media (max-width:320px){
+  .testimonials .testimonial-wrap{
+    height: 620px!important;
   }
 }
 
@@ -2045,12 +2057,7 @@ section {
       font-size: 50px;
   }
   .hero h1{
-  font-size: 90px;
-  }
-  .but{
-    height: 60px;
-    width: 100px;
-    padding-top: 15px;
+  font-size: 65px;
   }
 }
 
@@ -2107,10 +2114,17 @@ section {
 .hero .btn-watch-video:hover i {
   color: #fff;
 }
-
-@media (max-width: 640px) {
+@media (max-width: 575px){
   .hero h1{
-    font-size: 19px;
+    font-size: 19px!important;
+  }
+  .hero h2{
+    font-size: 15px!important;
+  }
+}
+@media (max-width: 768px) {
+  .hero h1{
+    font-size: 35px;
   }
   .hero h2 {
     font-size: 22px;
@@ -2119,6 +2133,10 @@ section {
   .hero .btn-get-started,
   .hero .btn-watch-video {
     font-size: 14px;
+  }
+  .but{
+    padding: 1px 5px!important;
+    font-size: 15px!important;
   }
 }
 
@@ -2163,17 +2181,6 @@ section {
   transition: 0.3s;
 }
 
-.but {
-  background-color: #81223e;
-  font-size: 20px;
-  border-radius: 50px;
-}
-
-.but:hover {
-  background-color: var(--color-primary);
-  font-size: 21px;
-}
-
 .hero .icon-box .icon {
   margin-bottom: 20px;
   padding-top: 10px;
@@ -2191,6 +2198,28 @@ section {
 .hero .icon-box:hover .title a,
 .hero .icon-box:hover .icon {
   color: #fff;
+}
+
+@media (min-width:576px) and (max-width:768px){
+  .member .harsh{
+  width: 486px;
+ }
+}
+
+@media (min-width:460px) and (max-width:576px){
+  .member .harsh{
+  width: 500px;
+ }
+}
+@media (max-width:425px){
+  #head1{
+font-size: 35px;
+  }
+}
+@media (min-width:425px) and (max-width:768px){
+  #head1{
+font-size: 45px;
+  }
 }
 
 /*--------------------------------------------------------------
