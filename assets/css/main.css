@@ -73,13 +73,19 @@ section {
 }
 
 .section-header h2 {
-  font-size: 32px;
+  font-size: 50px;
   font-weight: 600;
-  color: var(--color-primary);
+  color: #dc3545;
   margin-top: 70px!important;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
+}
+
+@media(max-width:425){
+  .section-header h2{
+    font-size: 32px;
+  }
 }
 
 .section-header h2:after {
@@ -515,7 +521,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: #0076fc;
+    background: var(--color-primary);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -685,6 +691,7 @@ section {
 
 .about p {
   text-align: justify;
+  line-height: 30px;
 }
 
 .about .call-us {
@@ -1130,7 +1137,7 @@ section {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #d7c8c8;
+  color: #ffffff;
 }
 
 .testimonials .testimonial-item h4 {
@@ -1852,6 +1859,7 @@ section {
   background-color: var(--color-primary);
   height: 100%;
   width: 50%;
+  margin-bottom: 30px!important;
   margin: auto;
   padding: 20px;
   border-radius: 10px;
