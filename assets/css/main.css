@@ -2015,7 +2015,8 @@ section {
   background: url("bg2.jpg");
   background-size: cover;
   width: 100%;
-  background-blend-mode: normal;
+  background-color: #000000a6;
+  background-blend-mode: darken;
 }
 
 .btn:hover{
