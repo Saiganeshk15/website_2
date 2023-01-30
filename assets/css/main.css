@@ -636,11 +636,20 @@ section {
   cursor: default;
 }
 
+.tickcounter{
+  pointer-events: none;
+  cursor: default;
+}
+#id{
+  pointer-events: none;
+}
 /*--------------------------------------------------------------
 # About Us Section
 --------------------------------------------------------------*/
 .timer {
   text-align: center;
+  pointer-events: none;
+  cursor: default;
 }
 
 .mainpic {
