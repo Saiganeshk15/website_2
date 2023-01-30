@@ -2039,15 +2039,17 @@ section {
   background-color: #00000070;
   background-blend-mode: darken;
 }
-
-.btn:hover{
+.btn{
   background: rgba(0, 0, 0, 0);
+  color: white;
+}
+.btn:hover{
   color: white;
 }
 
 .hero h2 {
-
-  font-weight: 700;
+/* 
+  font-weight: 700; */
   margin-bottom: 20px;
   color: #fff;
 }
@@ -2214,6 +2216,17 @@ section {
 @media (max-width:425px){
   #head1{
 font-size: 35px;
+  }
+}
+@media (min-width:770px){
+  #head1{
+    font-size: 90px!important;
+  }
+  #head2{
+    font-size: 55px!important;
+  }
+  .hero h2{
+    font-size: 25px;
   }
 }
 @media (min-width:425px) and (max-width:768px){
