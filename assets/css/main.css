@@ -82,9 +82,9 @@ section {
   position: relative;
 }
 
-@media(max-width:425){
+@media (min-width:300px) and (max-width:700px){
   .section-header h2{
-    font-size: 32px;
+    font-size: 26px!important;
   }
 }
 
@@ -691,7 +691,8 @@ section {
 
 .about p {
   text-align: justify;
-  line-height: 30px;
+  line-height: 40px;
+  font-size: 18px;
 }
 
 .about .call-us {
@@ -1531,7 +1532,7 @@ section {
   font-weight: 700;
   margin-top: 16px;
   margin-bottom: 2px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .team .member span {
@@ -1557,7 +1558,7 @@ section {
 }
 
 .team .member .social a {
-  color: #a2a2a2;
+  color:#dc3545;
   transition: 0.3s;
   border-radius: 50%;
   width: 40px;
@@ -1565,7 +1566,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #bbbbbb;
+  border: 1px solid #dc3545;
 }
 
 .team .member .social a:hover {
@@ -2055,7 +2056,12 @@ section {
   color: white;
   color: black;
 }
-
+@media (min-width:300px)and (max-width:700px) {
+  .btn{
+    padding: 2px;
+  }
+  
+}
 .hero h2 {
 /* 
   font-weight: 700; */
@@ -2071,15 +2077,6 @@ section {
   font-size: 65px;
   }
 }
-
-/* @media screen and(max-width:768px){
-  .hero h1{
-    font-size: 40px;
-  }
-  .hero h2{
-    font-size: 40px;
-  }
-} */
 
 .hero p {
   color: rgba(255, 255, 255, 0.6);
@@ -2127,7 +2124,7 @@ section {
 }
 @media (max-width: 575px){
   .hero h1{
-    font-size: 19px!important;
+    font-size: 30px!important;
   }
   .hero h2{
     font-size: 15px!important;
@@ -2934,6 +2931,7 @@ video {
 
 .footer .copyright {
   text-align: center;
+  font-style: italic;
 }
 
 .footer .credits {
