@@ -722,8 +722,10 @@ padding-left: 0px!important;
     width: 100px!important;
   }
 }
-.row-about{
-  margin: 0px -5px!important;
+@media (min-width:300px) and (max-width:425px){
+  .row-about{
+    margin: 0px!important;
+  }
 }
 .about .call-us {
   left: 10%;
@@ -2247,6 +2249,11 @@ padding-left: 0px!important;
   .member .harsh{
   width: 500px;
  }
+}
+@media (max-width:470px){
+  #head11{
+    font-size: 20px;
+  }
 }
 @media (max-width:425px){
   #head1{
