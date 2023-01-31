@@ -711,14 +711,20 @@ padding-left: 0px!important;
   }
 }
 @media (min-width:375px) and (max-width:426px){
-  .but{
-    width: 90px!important;
-  }
+  
   .samples{
     font-size: 18px!important;
   }
 }
-
+@media (max-width:426px)
+{
+  .but{
+    width: 100px!important;
+  }
+}
+.row-about{
+  margin: 0px -5px!important;
+}
 .about .call-us {
   left: 10%;
   right: 10%;
@@ -2167,7 +2173,6 @@ padding-left: 0px!important;
     font-size: 14px;
   }
   .but{
-    padding: 1px 5px!important;
     font-size: 15px!important;
   }
 }
