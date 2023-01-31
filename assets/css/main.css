@@ -2830,10 +2830,17 @@ font-size: 45px;
 /*--------------------------------------------------------------
 # More
 --------------------------------------------------------------*/
-.more h2 {
+.more h2,h3 {
   text-align: center;
 }
-
+.ps1{
+  font-size: 50px;
+}
+@media(max-width:700px){
+  .ps1{
+    font-size: 26px;
+  }
+}
 .more h3 {
   margin-left: 3%;
 }
